@@ -30,6 +30,9 @@ The specifications and procedure may be found in [IMDB_Cleaning](imdb_cleaning.i
 
 # Part 2: TMDB Querying and EDA
 
+# Part 3: Creating a MySQL Database
+<img src='img/imdb_erd.png'>
+
 
 
 
