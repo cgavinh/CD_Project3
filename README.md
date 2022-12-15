@@ -30,7 +30,7 @@ The specifications and procedure may be found in [IMDB_Cleaning](imdb_cleaning.i
 
 # Part 2: TMDB Querying and EDA
 TMDB API was queried using [tmdb_query.ipynb](tmdb_query.ipynb)
-<img src='img/financial_eda.png'>
+<img src='img/financial_eda.png' width=400>
 <img src='img/num_movies_certification.png'>
 <img src='img/ave_bud_by_cert.png'>
 <img src='img/ave_rev_by_cert.png'>
