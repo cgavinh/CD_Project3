@@ -23,22 +23,34 @@ ones? To make recommendations to increase the success of future movies?
 - Other pertinent information will be queried from TMDBs public database using
  [their API](https://www.themoviedb.org/documentation/api?language=en-US)
  
-# Part 1: Cleaning IMDB Data
+# Data Collection and Storing
+## Cleaning IMDB Data
 The publicly-available data from IMDB contains many movies not relevant to this study. 
 Only those movies fitting the specifications provided by the client will be included.
 The specifications and procedure may be found in [IMDB_Cleaning](imdb_cleaning.ipynb)
 
-# Part 2: TMDB Querying and EDA
-TMDB API was queried using [tmdb_query.ipynb](tmdb_query.ipynb)
-<img src='img/financial_eda.png' width=400>
-<img src='img/num_movies_certification.png' width=400>
-<img src='img/ave_bud_by_cert.png' width=400>
-<img src='img/ave_rev_by_cert.png' width=400>
-<img src='img/ave_profit_by_cert.png' width=400>
+## TMDB Querying and EDA
+- TMDB API was queried using [tmdb_query.ipynb](tmdb_query.ipynb)
+- The Following visualizations were made during some basic EDA
+
+<img src='img/financial_eda.png' width=200>
+<img src='img/num_movies_certification.png' width=200>
+<img src='img/ave_bud_by_cert.png' width=200>
+<img src='img/ave_rev_by_cert.png' width=200>
+<img src='img/ave_profit_by_cert.png' width=200>
 
 
-# Part 3: Creating a MySQL Database
+## Creating a MySQL Database
 <img src='img/imdb_erd.png'>
+
+# Data Analysis
+## Clustering and Feature-Engineering
+## Exploratory Analysis
+## Hypothesis Testing
+
+# Predictive Model
+# Recomendations
+
 
 
 
