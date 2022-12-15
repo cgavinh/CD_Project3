@@ -1,0 +1,11 @@
+FROM ubuntu
+USER root
+RUN apt-get update
+RUN apt -y install python3
+RUN apt -y install python3-pip
+RUN apt -y install vim
+# prevents git from asking for responses when installing
+RUN DEBIAN_FRONTEND=noninteractive apt -y install git-all
+WORKDIR /usr/imdb
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
