@@ -47,6 +47,12 @@ The specifications and procedure may be found in [IMDB_Cleaning](imdb_cleaning.i
 ## Clustering and Feature-Engineering
 ## Exploratory Analysis
 ## Hypothesis Testing
+### Does the MPAA rating of a movie (G/PG/PG-13/R) affect how much revenue the movie generates?
+Because the P-value is less than 0.05 we reject the null hypothesis and accept that MPAA rating affects the revenue of the movie
+### Do movies that are over 2.5 hours long earn more revenue than movies that are 1.5 hours long (or less)?
+Because the p-value is less than 0.05 we can reject the null hypothesis and accept that revenue is greater for movies longer than 150 minutes than for movies shorter than 90 minutes.
+### Do movies released in 2020 earn less revenue than movies released in 2018?
+The p-value is less than 0.05 so we can reject the null hypothesis and accept the alternative that moveis in 2020 earned less in revenue than movies in 2018.
 
 # Predictive Model
 # Recomendations
