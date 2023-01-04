@@ -52,7 +52,7 @@ Because the P-value is less than 0.05 we reject the null hypothesis and accept t
 ### Do movies that are over 2.5 hours long earn more revenue than movies that are 1.5 hours long (or less)?
 Because the p-value is less than 0.05 we can reject the null hypothesis and accept that revenue is greater for movies longer than 150 minutes than for movies shorter than 90 minutes.
 ### Do movies released in 2020 earn less revenue than movies released in 2018?
-The p-value is less than 0.05 so we can reject the null hypothesis and accept the alternative that moveis in 2020 earned less in revenue than movies in 2018.
+Yes, the p-value is less than 0.05 so we can reject the null hypothesis and accept the alternative that movies in 2020 earned less in revenue than movies in 2018.
 
 # Predictive Model
 # Recomendations
